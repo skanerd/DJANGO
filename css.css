@@ -1,0 +1,256 @@
+/*  */
+@font-face {
+    font-family: 'Django';
+    src: url(font/OriginalDjangoDemo-Regular.woff) format('truetype');
+}
+html, body {
+    height: 100%;
+}
+html {
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    justify-content: flex-start;
+}
+.main-nav ul, li {
+    font-family: 'Django';
+    width: 310px;
+    border: 0;
+    font-size: 60px;
+    font-weight: bold;
+    list-style: none;
+}
+.main-nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+.main-nav ul li a:hover {
+    color: red;
+    transition: all 0.5s 0s ease;
+}
+.footer-copyright {
+    width: 100%;
+    height: auto;
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    color: black;
+    background-color: brown;
+}
+.footer-navigation {
+    width: 100%;
+}
+.footer-navigation ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 0px;
+}
+.footer-navigation ul li {
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer-navigation ul li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+.footer-navigation ul li a:hover {
+    color: white;
+}
+
+
+
+
+
+/* index */
+.index-body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background-image: url(images/background3.jpg);   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color: rgb(10, 10, 10);
+}
+.index-main {
+    height: 200px;
+    width: 50%;
+}
+.sty {
+    padding-left: 50px;
+    width: 80%;
+    color: black;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 2;
+    
+}
+
+
+
+
+/* story */
+.story-body {
+    margin: 0;
+    padding: 0;
+    height: 2585px;
+    background-color: rgb(10, 10, 10);
+}
+.story-body:after{
+    width: 100%;
+    height: 200%;
+    content: "";
+    background: url("images/django\ wallpaper\ long.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    height: 2500px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.8;
+}
+.story-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.movie-text {
+    margin-top: 50px;
+    width: 60%;
+    color: wheat;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.75;
+}
+
+
+
+
+/* characters */
+.characters-body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/background3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color: rgb(10, 10, 10);
+}
+.movie-first-character {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 4200px;
+    width: 1300px;
+}
+.movie-character {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(10, 10, 10, 0.4);
+}
+.movie-text-character {
+    margin: auto;
+}
+.movie-text-title-character {
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Django';
+    text-align: center;
+}
+.movie-text-secondtitle-character {
+    color: #ee3945;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.movie-text-body-character {
+    margin: auto;
+    padding: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.7;
+}
+.best-quotes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    height: 200px;
+    text-align: center;
+}
+.movie-img-character img{
+    width: 300px;
+    height: 100%;
+}
+
+
+
+
+/* director */
+.director-body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(10, 10, 10);
+}
+.director-body:after {
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: url("images/background3.jpg");
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.8;
+}
+.director-info {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    height: 500px;
+    width: 90%;
+    color: black;
+}
+.director-text-info {
+    width: 70%;
+    font-size: 22px;
+}
+.director-name {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.director-info-info {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2;
+}
+.director-img-info img {
+    width: 89%;
+}
+.director-movie {
+    padding-bottom: 130px;
+}
+.director-movie-list {
+    display: flex;
+    justify-content: space-around;
+}
+.director-movie-list img{
+    width: 150px;
+    height: 200px;
+}
